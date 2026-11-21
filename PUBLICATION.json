@@ -1,0 +1,23 @@
+{
+  "repository": "MkaliezZ/english-teaching-workbench",
+  "visibility": "public",
+  "scope": "M0 development source",
+  "upstream": {
+    "repository": "https://github.com/MkaliezZ/self-media-bot",
+    "commit": "18c8e2cb5a8ffbe56d8bac462b11451d049b6d9d"
+  },
+  "included": [
+    "React workbench and persisted light/dark themes",
+    "Local HTTPS API and SSE gateway",
+    "General-purpose interactive HTML and PPTX generation for K–12, TOEFL, and IELTS",
+    "Optional self-media-bot adapter",
+    "Original sample and credential-free smoke test"
+  ],
+  "excluded": [
+    "Credentials, account files, private certificates and keys",
+    "User databases, sessions, uploads, output files, and runtime logs",
+    "Institution materials, textbook and exam-specific lesson packages",
+    "Internal PRD evidence, screenshots, archives, and history snapshots",
+    "Bundled dependencies, model files, and local caches"
+  ]
+}
